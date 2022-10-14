@@ -15,7 +15,7 @@
 <img src="https://i.imgur.com/LbmTdhf.gif" alt="animated"  />
 </p>
 
-## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
+## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/KPiKOqO8XXJ3VHgoFfQcKH) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
 > A Fully PRECIOUS COOL BOT BY DRIPS MEMES <br>
 > 
@@ -23,7 +23,7 @@
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zim-bot/zimbot-v3)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sayubot1/-SaYuBoT-)
 
 ## BUILD PACKS
 
@@ -33,10 +33,10 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 
 https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 ```
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@ReinhardTuna/Zimbot-v3-QR?v=1)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@RavishkaSathsar/SaYu-BoT-MD-QR?)
 <img src="https://fontmeme.com/permalink/220116/0c42dc0b64931810388ba399da55e927.png" alt="backwoods-logo-font" border="0"></a>  
 
- ##  > THIS BOT CODED BY DRIPS MEMES ZIM BOT INC 
+ ##  > THIS BOT CODED BY DRIPS MEMES SaYu BoT-MD 
 
 
 ## >  FOLLOW STEPS BELOW FOR INSTALLATION
@@ -51,9 +51,9 @@ apt install git
 
 apt update && apt upgrade
 
-git clone https://github.com/zim-bot/zimbot-v3
+git clone https://github.com/sayubot1/-SaYuBoT-
  
-cd zimbot-v3
+cd SaYu BoT-MD-v1
 
 npm install
 
@@ -70,12 +70,12 @@ echo scan the qr code and enjoy bot
 
 ## JOIN MY WHATSAPP GROUP
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)]https://chat.whatsapp.com/KPiKOqO8XXJ3VHgoFfQcKH)
 
 ## MY PERSONAL CHAT
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/27634090203)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/94773721711)
 
 
-# > THANKS FOR CHOOSING ZIM BOT WE APPRECIATE YOU FOR YOUR SUPPORT
+# > THANKS FOR CHOOSING SaYu BoT-MD WE APPRECIATE YOU FOR YOUR SUPPORT
  
