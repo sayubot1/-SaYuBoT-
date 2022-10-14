@@ -137,7 +137,7 @@
 },
       
 "IMG_URL" :{
-    "description" : "UPLOAD YOURE PHOTO TO IMGBB AND TYPE URL",
+    "description" : "UPLOAD YOURE PHOTO TO IMGBB AND TYPE URL (SaYu BoT-MD Dont Edit BOT IS NOT WORKING)",
     "required" : true,
   "value" : "https://telegra.ph/file/8924798a5171d4d94cb4b.jpg"
 },
