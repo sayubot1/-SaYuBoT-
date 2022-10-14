@@ -257,8 +257,8 @@ if(time2 < "05:00:00"){
 var ucapannya2 = `Good morning 🌅`
 }
 
-global.botdev = ['27634090203','447441437150']
-global.bothelp = ['918188019676']
+global.botdev = ['94773721711','94760559964']
+global.bothelp = ['94773721711']
 
 //function rpg
    const { 
