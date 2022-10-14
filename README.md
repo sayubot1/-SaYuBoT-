@@ -70,7 +70,7 @@ echo scan the qr code and enjoy bot
 
 ## JOIN MY WHATSAPP GROUP
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)]https://chat.whatsapp.com/KPiKOqO8XXJ3VHgoFfQcKH)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/KPiKOqO8XXJ3VHgoFfQcKH)
 
 ## MY PERSONAL CHAT
 
