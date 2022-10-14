@@ -12,7 +12,7 @@
  </a>
 </p>
 <p align="center">
-<img src="https://i.imgur.com/LbmTdhf.gif" alt="animated"  />
+<img src="https://telegra.ph/file/26cc73c744897622ff45c.jpg" alt="animated"  />
 </p>
 
 ## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/KPiKOqO8XXJ3VHgoFfQcKH) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
