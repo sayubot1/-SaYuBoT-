@@ -1,8 +1,8 @@
 {
-  "name": "Zim Bot Inc",
+  "name": "SaYu BoT-MD",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/zim-bot/zimbot-v2",
-  "logo": "",
+  "repository": "https://github.com/sayubot1/-SaYuBoT-",
+  "logo": "https://telegra.ph/file/8924798a5171d4d94cb4b.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
