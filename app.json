@@ -145,7 +145,7 @@
   "YT_URL" :{
     "description" : "IF U HAVE YT CHANNEL TYPE URL",
     "required" : true,
-    "value" :"https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA
+    "value" :"https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA"
     }
     },
 
