@@ -141,6 +141,11 @@
     "required" : true,
   "value" : "https://telegra.ph/file/8924798a5171d4d94cb4b.jpg"
 },
+    "CAP_NAME" :{
+    "description" : "TYPE ANY NAME",
+    "required" : true,
+  "value" : "*BY SaYu BoT-MD*"
+},
   
   "YT_URL" :{
     "description" : "IF U HAVE YT CHANNEL TYPE URL",
