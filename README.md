@@ -1,14 +1,14 @@
-<a href="https://youtu.be/ww4z2m3uORU"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=[https://youtu.be/ww4z2m3uORU](https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA)" /><br>
+<a href="https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=[https://youtu.be/ww4z2m3uORU](https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA)" /><br>
 
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
 
-<a href="https://youtu.be/ww4z2m3uORU"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=[https://youtu.be/ww4z2m3uORU](https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA)" /><br>
+<a href="https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=[https://youtu.be/ww4z2m3uORU](https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA)" /><br>
 # SaYu BoT-MD
- WhatsApp with so Many features using multi device  [BAILEYS](https://github.com/adiwajshing/baileys)
+ WhatsApp with so Many features using multi device  [RAVISHKA](https://www.instagram.com/ravishka__sathsara/)
  
  ## ```Donate Me```
 
-- [`Paypal`](https://www.paypal.me/zimbotinc)
+- [`INSTAGRAM`]([https://www.paypal.me/zimbotinc](https://www.instagram.com/ravishka__sathsara/))
  </a>
 </p>
 <p align="center">
