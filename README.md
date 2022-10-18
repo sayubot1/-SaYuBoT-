@@ -6,7 +6,7 @@
 # SaYu BoT-MD
  WhatsApp with so Many features using multi device  [RAVISHKA](https://www.instagram.com/ravishka__sathsara/)
  
- ## ```Donate Me```
+ ## ```FoLLoW Me```
 
 - [`INSTAGRAM`]([https://www.paypal.me/zimbotinc](https://www.instagram.com/ravishka__sathsara/))
  </a>
