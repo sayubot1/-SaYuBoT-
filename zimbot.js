@@ -69,8 +69,8 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
 limitawal = '100'
-botname = 'ZIM BOT INC'
-wm = 'ZIM BOT INC'
+botname = 'SaYu BoT MD'
+wm = 'SaYu BoT MD'
 global.reactmoji = '🇿🇼'
 limitCount = setting.limit
 
@@ -100,9 +100,9 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
         const isCmd = body.startsWith(prefix)
         const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
         const args = body.trim().split(/ +/).slice(1)
-        const pushname = m.pushName || "No Name"
+        const pushname = m.pushName || "SaYu BoT MD"
         const botNumber = await ZimBotInc.decodeJid(ZimBotInc.user.id)
-        const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '+94760559964') + '@s.whatsapp.net').includes(m.sender)
         const itsMe = m.sender == botNumber ? true : false
         const text = q = args.join(" ")
         const quoted = m.quoted ? m.quoted : m
@@ -2639,11 +2639,11 @@ let drips = [
                     await sleep(1500)
 		            let btn = [{
           urlButton: {
-                  displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  displayText: 'Instagram',
+                  url: 'https://www.instagram.com/ravishka__sathsara/'
           }
                             }]
-                      let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
+                      let txt = `「 *SaYu BoT MD BROADCAST* 」\n\n${text}`
                       ZimBotInc.send5ButImg(i, txt, botname, global.bc, btn)
                     }
                 m.reply(` *Send Broadcast To* ${anu.length} *Group*`)
@@ -2651,18 +2651,18 @@ let drips = [
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `*Type some text*\n\nExample : ${prefix + command} ZIM-BOT-INC`
+                if (!text) throw `*Type some text*\n\nExample : ${prefix + command} SaYu BoT MD`
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`*Send Broadcast To* ${anu.length} Chat\nTime ${anu.length * 1.5} second`)
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
           urlButton: {
-                  displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  displayText: 'Instagram',
+                  url: 'https://www.instagram.com/ravishka__sathsara/'
           }
                             }]
-                      let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
+                      let txt = `「 *SaYu BoT MD BROADCAST* 」\n\n${text}`
                       ZimBotInc.send5ButImg(yoi, txt, botname, global.bc, btn)
 		}
 		m.reply('*Success Broadcast*')
@@ -2691,8 +2691,8 @@ case 'bcimage': case 'bcvideo': case 'bcaudio': {
                     await sleep(1500)
                     let butoon = [{
           urlButton: {
-                  displayText: `GITHUB`,
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  displayText: `Instagram`,
+                  url: 'https://www.instagram.com/ravishka__sathsara/'
           }
                             },
                             {
@@ -3641,8 +3641,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
           }
                             }, {
                             	urlButton: {
-          displayText: `GITHUB`, 
-                  url: `https://github.com/zim-bot/zimbot-v3`
+          displayText: `Instagram`, 
+                  url: `https://www.instagram.com/ravishka__sathsara/`
           }
                             }, {
           quickReplyButton: {
@@ -3706,8 +3706,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
           }
                             }, {
                             	urlButton: {
-          displayText: `GITHUB`, 
-                  url: `https://github.com/zim-bot/zimbot-v3`
+          displayText: `Instagram`, 
+                  url: `https://www.instagram.com/ravishka__sathsara/`
           }
                             }, {
           quickReplyButton: {
@@ -3747,7 +3747,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 let caption = `
 *▊▊▊BEST MUSIC▊▊▊*
 
-*⬤▶━━━━━━━━━2:30*\n\n*⬤TITLE :* ${media.title}\n*⬤FILESIZE :* ${media.filesizeF}\n*⬤URL :* ${isUrl(text)}\n*⬤EXT :* MP3\n*⬤RESOLUTION :* ${args[1] || '128kbps'}\n\n*ZIM BOT INC*`
+*⬤▶━━━━━━━━━2:30*\n\n*⬤TITLE :* ${media.title}\n*⬤FILESIZE :* ${media.filesizeF}\n*⬤URL :* ${isUrl(text)}\n*⬤EXT :* MP3\n*⬤RESOLUTION :* ${args[1] || '128kbps'}\n\n*SaYu BoT MD*`
                 buf = await getBuffer(media.thumb)
                 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m }).catch((err) => m.reply('*Sorry, the link you provided is not valid*'))                
                 ZimBotInc.sendMessage(m.chat, {document:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
@@ -4933,12 +4933,12 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA/about'
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+displayText: 'Instagram',
+url: 'https://www.instagram.com/ravishka__sathsara/'
 }
 }, {
 quickReplyButton: {
@@ -5032,16 +5032,16 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: caption,
-hydratedFooterText: `${botname}`,
+hydratedFooterText: `${SaYu BoT MD}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SOURCE',
+displayText: 'SaYu BoT MD',
 url: `${text}`
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+displayText: 'Instagram',
+url: 'https://www.instagram.com/ravishka__sathsara/'
 }
 }, {
 quickReplyButton: {
@@ -5347,7 +5347,7 @@ case 'igs3': case 'igstory3': case 'instagramstory3': {
                     txt += `*⬤Type :* ${data.medias[0].extension}\n`
                     txt += `*⬤Size :* ${data.medias[0].formattedSize}\n`
                     txt += `*⬤Url Source :* ${data.url}\n\n`
-                    txt += `*ZIM BOT INC*`
+                    txt += `*SaYu BoT MD*`
                 buf = await getBuffer(data.thumbnail)   
                 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m }).catch((err) => m.reply('link error'))    
                 ZimBotInc.sendMessage(m.chat, { audio: { url: data.medias[0].url }, mimetype: 'audio/mpeg', fileName: data.title+'.m4a' }, { quoted: m })
@@ -5582,7 +5582,7 @@ case 'twitter': case 'td': case 'twitterdl': {
                     txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
                     txt += `*⬤DURATION :* ${data.medias.length}\n`
                     txt += `*⬤URL :* ${data.url}\n\n`
-                    txt += `*ZIM BOT INC*`
+                    txt += `*SaYu BoT MD*`
                 buf = await getBuffer(data.thumbnail)    
                 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })
                 for (let i of data.medias) {
@@ -5653,7 +5653,7 @@ case 'fbdl': case 'fb': case 'facebook': case 'pesbuk': {
 
                     txt += `*⬤URL :* ${text}\n\n`
 
-                    txt += `*ZIM BOT INC*`                
+                    txt += `*SaYu BoT MD*`                
 
                 buf = await getBuffer(data.thumbnail)    
 
@@ -5705,7 +5705,7 @@ case 'fb6': {
                     txt += `*:⬤TYPE* ${data.medias[1].extension}\n`
                     txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
                     txt += `*⬤URL :* ${data.url}\n\n`
-                    txt += `*ZIM BOT INC*`
+                    txt += `*SaYu BoT MD*`
                 buf = await getBuffer(data.thumbnail)    
                 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })              
                 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[1].url }, jpegThumbnail:buf, caption: `*⬤ Quality :* ${data.medias[1].quality}`}, { quoted: m })                
@@ -5936,7 +5936,7 @@ case 'apk': case 'apkmod': case 'apkdl': {
       m.chat, 
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: `© ZIM BOT INC`,
+       footer: `© SaYu BoT MD`,
        title: "*▊▊▊APK DOWNLOAD▊▊▊*",
        buttonText: "CLICK HERE",
        sections
@@ -6878,7 +6878,7 @@ case 'listmenu': case 'list': {
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯`,
        footer: ZimBotInc.user.name,
        title: `${ucapannya2} ${pushname}`,
@@ -6921,7 +6921,7 @@ anu = `*✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
     
@@ -7482,12 +7482,12 @@ anu = `*✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 let btn = [{
           urlButton: {
                   displayText: 'SUBSCRIBE',
-                  url: 'https://www.youtube.com/c/DRIPSOFC'
+                  url: 'https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA/about'
           }
                             }, {
           urlButton: {
-                  displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  displayText: 'Instagram',
+                  url: 'https://www.instagram.com/ravishka__sathsara/'
           }
                             }, {
           quickReplyButton: {
@@ -7513,16 +7513,16 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: anu,
-hydratedFooterText: `${global.botname}`,
+hydratedFooterText: `${global.SaYu_BoT_MD}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA/about'
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+displayText: 'Instagram',
+url: 'https://www.instagram.com/ravishka__sathsara/'
 }
 }, {
 quickReplyButton: {
@@ -7555,12 +7555,12 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA/about'
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+displayText: 'Instagram',
+url: 'https://www.instagram.com/ravishka__sathsara/'
 }
 }, {
 quickReplyButton: {
@@ -7593,12 +7593,12 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA/about'
 }
 }, {
 urlButton: {
-displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+displayText: 'Instagram',
+url: 'https://www.instagram.com/ravishka__sathsara/'
 }
 }, {
 quickReplyButton: {
@@ -7663,9 +7663,9 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯`,
-       footer: `ZIM BOT INC`,
+       footer: `SaYu BoT MD`,
        title: `*LIST MENU*`,
        jpegThumbnail: buffer,
        buttonText: "CLICK HERE",
@@ -7713,12 +7713,12 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
 //hydratedButtons: [{
 //urlButton: {
 //displayText: 'SUBSCRIBE',
-//url: 'https://www.youtube.com/c/DRIPSOFC'
+//url: 'https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA/about'
 //}
 //}, {
 //urlButton: {
-//displayText: 'GITHUB',
-//url: 'https://github.com/zim-bot/zimbot-v3'
+//displayText: 'Instagram',
+//url: 'https://www.instagram.com/ravishka__sathsara/'
 //}
 //}, {
 //quickReplyButton: {
@@ -7770,7 +7770,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -7818,7 +7818,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -7845,7 +7845,7 @@ let hao = randomNomor(200)
 ┃⬤ ${prefix}ahegao
 ┗━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️SaYu BoT MD
 `
 function _0x3217(_0x37715e,_0x2f6592){const _0xa94637=_0xa946();return _0x3217=function(_0x32173c,_0x1faa3c){_0x32173c=_0x32173c-0x123;let _0x3b0d30=_0xa94637[_0x32173c];return _0x3b0d30;},_0x3217(_0x37715e,_0x2f6592);}const _0x3ea3f4=_0x3217;(function(_0x329815,_0x3187af){const _0x1742ff=_0x3217,_0x11de18=_0x329815();while(!![]){try{const _0x2af702=parseInt(_0x1742ff(0x12e))/0x1*(-parseInt(_0x1742ff(0x133))/0x2)+-parseInt(_0x1742ff(0x132))/0x3*(parseInt(_0x1742ff(0x138))/0x4)+-parseInt(_0x1742ff(0x134))/0x5*(parseInt(_0x1742ff(0x127))/0x6)+parseInt(_0x1742ff(0x12f))/0x7*(parseInt(_0x1742ff(0x136))/0x8)+-parseInt(_0x1742ff(0x128))/0x9+-parseInt(_0x1742ff(0x129))/0xa+-parseInt(_0x1742ff(0x12b))/0xb*(-parseInt(_0x1742ff(0x131))/0xc);if(_0x2af702===_0x3187af)break;else _0x11de18['push'](_0x11de18['shift']());}catch(_0x573d7e){_0x11de18['push'](_0x11de18['shift']());}}}(_0xa946,0x26ed7));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x3ea3f4(0x130)]});function _0xa946(){const _0x2a0735=['imageMessage','127KwzpDy','7qrwpSX','waUploadToServer','12123564BOwpfZ','784317yPMltC','4158aFgTZO','97980uRbCpG','relayMessage','424624qYNVeq','https://www.youtube.com/c/DRIPSOFC','4SXNURK','chat','SUBSCRIBE','key','Message','84npVzAw','485649YpjWQW','501510MVGWCT','botname','11WGaHFz','https://github.com/zim-bot/zimbot-v3'];_0xa946=function(){return _0x2a0735;};return _0xa946();}const template=generateWAMessageFromContent(m[_0x3ea3f4(0x123)],proto[_0x3ea3f4(0x126)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message[_0x3ea3f4(0x12d)],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x3ea3f4(0x12a)],'hydratedButtons':[{'urlButton':{'displayText':_0x3ea3f4(0x124),'url':_0x3ea3f4(0x137)}},{'urlButton':{'displayText':'GITHUB','url':_0x3ea3f4(0x12c)}}]}}}),{'userJid':m['chat']});ZimBotInc[_0x3ea3f4(0x135)](m['chat'],template['message'],{'messageId':template[_0x3ea3f4(0x125)]['id']});
                 }
@@ -7875,7 +7875,7 @@ function _0x3217(_0x37715e,_0x2f6592){const _0xa94637=_0xa946();return _0x3217=f
                 ┃https://tinyurl.com/2bghgjfx
                 ┃
                 ┃━━━━━━━━━━━━━━━━━━┃
-                ┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+                ┃                  SaYu BoT MD
                 ╰━━━━━━━━━━━━━━━━━━╯
                 
                      
@@ -7920,7 +7920,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -7993,7 +7993,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8218,7 +8218,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8324,7 +8324,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8373,7 +8373,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8466,7 +8466,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8517,7 +8517,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8570,7 +8570,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8637,7 +8637,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8697,7 +8697,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8820,7 +8820,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8862,7 +8862,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8908,7 +8908,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8938,12 +8938,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
     "urlButton": {
       "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "url": "https://www.youtube.com/channel/UChAp2T6q9SlFIfhrFDZrzwA/about"
     }
 }, {
 urlButton: {
-    displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v3'
+    displayText: 'Instagram',
+    url: 'https://www.instagram.com/ravishka__sathsara/'
 }
 }
 ]
@@ -8978,7 +8978,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -9027,7 +9027,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -9081,7 +9081,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -9120,7 +9120,7 @@ let hao = randomNomor(200)
 ┃https://tinyurl.com/2bghgjfx
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃                  SaYu BoT MD
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
